@@ -1,9 +1,11 @@
 body{
     margin: 0 0;
 }
+
 .homecontainer {
     display: flex;
 }
+
 #background-image{
     background-image: url(./images/carlaheadshotglasses.jpg);
     height: 100%;
@@ -16,10 +18,12 @@ body{
     flex-grow: 2;
     flex-shrink: 1;
 }
+
 nav-bar ul{
     display: flex;
     justify-content: space-around;
 }
+
 #maininfo {
     height: 90vh;
     width: 100%;
@@ -28,11 +32,13 @@ nav-bar ul{
     justify-content: flex-end;
     flex-direction: column;
 }
+
 h1, h3{
     color: white;
     font-family: Didot, serif;
     text-shadow: 1px 1px #1a0b0b;
 }
+
 h1 {
     font-size: 80px;
     margin-bottom: 0;
@@ -44,22 +50,27 @@ footer{
     text-shadow: 1px 1px #1a0b0b;
     margin: 0 auto;
 }
+
 ul {
     list-style-type: none;
 }
+
 a:hover {
     color: white;
     text-shadow: 1px 1px #1a0b0b;
 }
+
 a {
     color: rgb(197, 104, 104);
     font-family: Didot, sans-serif;
     text-shadow: 1px 1px #1a0b0b;
 }
+
 a:link {
     text-decoration: none;
     font-size: 20px;
 }
+
 .currentpage {
     text-decoration: underline;
 }
@@ -69,7 +80,9 @@ a:link {
         background-size: 1200px;
         background-position: center;
         background-color: rgb(70, 65, 64);
+    }
 }
+
 @media (max-width: 500px) {
     #background-image{
         background-size: 700px;
@@ -77,20 +90,16 @@ a:link {
         background-position-y: 100px;
     }
     nav-bar ul{
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-}
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     ul {
-    display: inline-block;
-    padding: 0;
-}
-    ul li {
-    padding: 5px;
-}
+        display: inline-block;
+        padding: 0;
+    }
     h1 {
-    font-size: 40px;
-}
+        font-size: 40px;
+    }
     h3 {
         display: inline;
         padding: 0;
@@ -102,9 +111,11 @@ a:link {
         align-items: center;
     }
 }
+
 @media (max-height: 670px) {
     #background-image{
         background-size: 600px;
         background-position-x: -60px;
         background-position-y: 100px;
+    }
 }
